@@ -1,0 +1,8 @@
+# Tauri
+/src-tauri/target/
+/src-tauri/gen/schemas
+
+# NPM
+/node_modules
+
+.package-lock.json

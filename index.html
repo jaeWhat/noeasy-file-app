@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noeasy File App</title>
+    <script type="module" src="/src/script/main.ts" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    >
+  </head>
+
+  <body>
+    <h2>File App</h2>
+
+    <div class="grid">
+      <div>
+        <input
+          type="text"
+          id="fileName"
+          name="fileName"
+          placeholder="File Name"
+          aria-label="File Name"
+          required
+        >
+      </div>
+      <div>
+        <button id="btnCreateFile">Create Files</button>
+      </div>
+      <div>
+        <button id="btnGetFile">Get Files</button>
+      </div>
+    </div>
+
+    <ul id="list"></ul>
+    <p id="fileContent"></p>
+  </body>
+</html>
